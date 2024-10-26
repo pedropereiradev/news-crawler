@@ -12,3 +12,7 @@ def search_news():
 
 if __name__ == '__main__':
     app.run(port=5000)
+
+@app.route('/health', methods=['GET'])
+def health_check():
+    return jsonify({"status": "healthy"}), 200
