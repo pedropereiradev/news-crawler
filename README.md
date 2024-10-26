@@ -28,8 +28,8 @@ A API coleta títulos, links e imagens das notícias em tempo real.
 
 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/news-crawler.git
-cd news-crawler/crawler-api
+git clone git@github.com:pedropereiradev/news-crawler.git
+cd news-crawler
 ```
 
 2. Crie e ative um ambiente virtual
