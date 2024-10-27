@@ -8,7 +8,7 @@ CORS(app)
 @app.route('/search_news', methods=['GET'])
 def search_news():
     news = scrape_news()
-    return jsonify({'news': news}), 200
+    return jsonify({'news': news, 'count': len(news) }), 200
 
 if __name__ == '__main__':
     app.run(port=5000)
